@@ -1,0 +1,139 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 65px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.hmbrg-menu-icon {
+  height: 28px;
+  padding-bottom: 4px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.logo-img {
+  height: 54px;
+}
+
+.mid-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+}
+
+.search-bar {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.search-input,
+.search-btn {
+  border: none;
+  outline: none;
+}
+
+.search-input {
+  padding-left: 10px;
+  height: 40px;
+  flex: 1;
+  font-size: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.search-input::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 20px;
+}
+
+.search-btn {
+  height: 44px;
+  width: 66px;
+  background-color: rgb(245, 245, 245);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-left: -4px;
+  margin-right: 10px;
+}
+
+.search-icon {
+  height: 32px;
+  margin-top: 4px;
+  opacity: 85%;
+}
+
+.voice-btn {
+  height: 44px;
+  width: 44px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 44px;
+  border: none;
+}
+
+.voice-icon {
+  padding-right: 34px;
+  padding-top: 1px;
+  height: 40px;
+  scale: 120%;
+  opacity: 85%;
+}
+
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+}
+
+.upload {
+  padding-left: 10px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  height: 44px;
+  width: auto;
+  background-color: rgb(236, 236, 236);
+  border-radius: 44px;
+  border-color: rgb(192, 192, 192);
+  border: none;
+}
+
+.plus {
+  height: 30px;
+  margin-right: 5px;
+}
+
+.create {
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.notification {
+  height: 44px;
+  width: 44px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 44px;
+  border: none;
+  margin-left: 15px;
+}
+
+.bell {
+  height: 30px;
+}
