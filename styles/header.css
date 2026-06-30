@@ -22,12 +22,12 @@
 .hmbrg-menu-icon {
   height: 26px;
   padding-bottom: 4px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .logo-img {
-  height: 52px;
+  height: 54px;
 }
 
 .mid-section {
@@ -47,7 +47,7 @@
   overflow: hidden;
   width: fit-content;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px inset;
-  margin-right: 10px;
+  margin-right: 15px;
   flex: 1;
   width: 0;
 }
