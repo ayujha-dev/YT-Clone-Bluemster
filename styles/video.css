@@ -6,14 +6,20 @@
 }
 
 .vid-tile {
-  border-radius: 6px;
-  padding: 8px;
+  border-radius: 12px;
+  padding: 12px;
   transition: all 0.2s;
 }
 
 .vid-tile:hover {
-  transform: scale(1.02);
+  transform: scale(1.025);
   background-color: rgb(228, 228, 228);
+  cursor: pointer;
+}
+
+.vid-tile:active {
+  transform: scale(1.01);
+  background-color: rgb(220, 220, 220);
 }
 
 .thumbnail-row {
@@ -36,7 +42,7 @@
 .thumbnail {
   width: 100%;
   border: none;
-  border-radius: 6px;
+  border-radius: 12px;
 }
 
 .vid-infogrid {
@@ -49,7 +55,7 @@
 }
 
 .ch-pic {
-  width: 40px;
+  width: 45px;
   border-radius: 50px;
 }
 
@@ -60,14 +66,14 @@
 
 .vid-title {
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 20px;
 }
 
 .vid-author,
 .vid-stats {
-  font-size: 12px;
+  font-size: 14px;
   color: rgb(96, 96, 96);
 }
 

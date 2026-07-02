@@ -10,31 +10,35 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: start;
 }
 
 .sidebar-btns {
-  height: 120px;
+  height: 100px;
   width: 80%;
   padding: 4px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: all 0.5s;
 }
 
 .sidebar-btns:hover {
+  cursor: pointer;
   border: none;
   border-radius: 8px;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(216, 216, 216);
+  transform: scale3d(1.25, 1.25, 1.25) rotateX(12deg) rotateY(-12deg);
 }
 
 .sidebar-btns:active {
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(209, 209, 209);
+  transform: scale3d(1.08, 1.08, 1.08) rotateX(7deg) rotateY(-7deg);
 }
 
 .sdbar-icon {
-  height: 30px;
+  height: 25px;
 }
 
 /* or Apparently we can just use this line of code instead of the above one as this one saves us the hassle of going to each img and setting a class.
