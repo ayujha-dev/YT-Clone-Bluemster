@@ -5,6 +5,17 @@
   row-gap: 40px;
 }
 
+.vid-tile {
+  border-radius: 6px;
+  padding: 8px;
+  transition: all 0.2s;
+}
+
+.vid-tile:hover {
+  transform: scale(1.02);
+  background-color: rgb(228, 228, 228);
+}
+
 .thumbnail-row {
   margin-bottom: 10px;
   position: relative;
@@ -24,6 +35,8 @@
 
 .thumbnail {
   width: 100%;
+  border: none;
+  border-radius: 6px;
 }
 
 .vid-infogrid {

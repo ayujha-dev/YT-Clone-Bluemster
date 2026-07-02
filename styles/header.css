@@ -22,7 +22,7 @@
 .hmbrg-menu-icon {
   height: 26px;
   padding-bottom: 4px;
-  margin-left: 25px;
+  margin-left: 30px;
   margin-right: 25px;
 }
 
@@ -50,6 +50,7 @@
   margin-right: 15px;
   flex: 1;
   width: 0;
+  min-width: fit-content;
 }
 
 .search-input,
@@ -139,17 +140,31 @@
 .notification {
   height: 44px;
   width: 44px;
-  background-color: rgb(236, 236, 236);
+  background-color: white;
   border-radius: 44px;
   border: none;
+  position: relative;
 }
 
 .bell {
-  height: 30px;
+  height: 38px;
+}
+
+.notification-number {
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background-color: red;
+  top: 2px;
+  right: 2px;
+  padding: 1px 6px 1px 6px;
 }
 
 .user-profile-pic {
-  height: 46px;
+  height: 42px;
   border-radius: 44px;
   border: none;
+  padding-bottom: 2px;
 }
