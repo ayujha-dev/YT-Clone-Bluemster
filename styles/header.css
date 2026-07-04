@@ -8,8 +8,8 @@
   left: 0;
   right: 0;
   background-color: white;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-  z-index: 100;
+  box-shadow: 100px 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 102;
 }
 
 .left-section {
@@ -31,7 +31,7 @@
 
 .hmbrg:hover {
   background-color: rgb(216, 216, 216);
-  transform: scale3d(1.2, 1.2, 1.2) rotateX(10deg) rotateY(-10deg);
+  transform: scale(1.15) rotateX(5deg) rotateZ(-5deg);
   cursor: pointer;
 }
 
@@ -97,6 +97,7 @@
 .search-btn {
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 .search-input {
@@ -115,6 +116,8 @@
 }
 
 .search-btn {
+  display: flex;
+  justify-content: center;
   height: 42px;
   width: 60px;
   background-color: rgb(245, 245, 245);
@@ -124,11 +127,13 @@
 
 .search-icon {
   height: 30px;
-  margin-top: 2px;
+  padding: 4px 2px 0px 0px;
   opacity: 85%;
 }
 
 .voice-btn {
+  display: flex;
+  justify-content: center;
   height: 42px;
   width: 42px;
   background-color: rgb(236, 236, 236);
@@ -147,8 +152,6 @@
 }
 
 .voice-icon {
-  padding-right: 42px;
-  padding-top: -1px;
   height: 40px;
   scale: 120%;
   opacity: 85%;
@@ -166,6 +169,7 @@
 .upload {
   padding-left: 10px;
   padding-right: 15px;
+  margin-right: 30px;
   display: flex;
   align-items: center;
   height: 44px;
@@ -200,6 +204,7 @@
 .notification {
   height: 44px;
   width: 44px;
+  margin-right: 20px;
   background-color: white;
   border-radius: 44px;
   border: none;
@@ -208,7 +213,7 @@
 }
 
 .notification:hover {
-  transform: scale(1.15) rotate(-5deg);
+  transform: scale(1.15);
   cursor: pointer;
 }
 
@@ -230,6 +235,11 @@
   top: 2px;
   right: 2px;
   padding: 1px 6px 1px 6px;
+}
+
+.user {
+  border: none;
+  background-color: white;
 }
 
 .user-profile-pic {

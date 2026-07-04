@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/tooltips.css" />
   </head>
 
   <body>
@@ -21,9 +22,11 @@
       <div class="left-section">
         <button class="hmbrg">
           <img src="icons/hamburger.png" alt="Menu" class="hmbrg-menu-icon" />
+          <div class="tooltip">Toggle Sidebar</div>
         </button>
         <div class="logo-container">
           <img src="icons/yt-logo.png" alt="YouTube Logo" class="logo-img" />
+          <div class="tooltip">YouTube Home</div>
         </div>
       </div>
 
@@ -38,6 +41,7 @@
 
         <button class="voice-btn">
           <img class="voice-icon" src="icons/voice.svg" />
+          <div class="tooltip">Search with your voice</div>
         </button>
       </div>
 
@@ -49,9 +53,13 @@
         <button class="notification">
           <img class="bell" src="icons/bell.svg" />
           <p class="notification-number">3</p>
+          <div class="tooltip">Notifications</div>
         </button>
 
-        <img class="user-profile-pic" src="channel/user.png" />
+        <button class="user">
+          <img class="user-profile-pic" src="channel/user.png" />
+          <div class="tooltip">Sign in</div>
+        </button>
       </div>
     </div>
 

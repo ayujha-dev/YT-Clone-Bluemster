@@ -1,0 +1,46 @@
+/* 1. Ensure the parent elements act as a positional anchor for the tooltips */
+.hmbrg,
+.logo-container,
+.search-btn,
+.voice-btn,
+.notification,
+.user {
+  position: relative;
+}
+
+/* 2. Style the Tooltip to match YouTube's aesthetics */
+.tooltip {
+  position: absolute;
+  background-color: rgba(97, 97, 97, 0.9);
+  color: white;
+  padding: 8px 10px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  border-radius: 4px;
+  white-space: nowrap;
+
+  /* Crucial: prevents the tooltip from accidentally blocking clicks on your buttons */
+  pointer-events: none;
+
+  /* 3. Position the tooltip centered just below the button */
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 12px;
+
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.1s ease,
+    visibility 0.1s ease;
+
+  /* The slight delay before the tooltip appears is a classic YouTube UI detail */
+  transition-delay: 0.4s;
+}
+
+/* 5. Trigger the tooltip fade-in when hovering over the parent element */
+*:hover > .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
